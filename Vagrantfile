@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
   # Example for VirtualBox:
   #
   config.vm.provider "virtualbox" do |vb|
-    vb.memory = "256"
+    vb.memory = "512"
   end
 
   # Enable provisioning with a shell script. Additional provisioners such as
